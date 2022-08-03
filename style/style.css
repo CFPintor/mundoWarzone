@@ -30,9 +30,11 @@ header{
 
 nav ul li{
     list-style-type: none;
-    border-radius: 10px;
-    border: 2px ridge black ;
-    margin: 2px;
+    margin: 3px;
+}
+
+li:hover{
+    transform: scale(1.2) ;
 }
 
 
@@ -41,12 +43,8 @@ h1{
     font-weight: bolder;
     text-decoration: underline;            
     font-size: 40px;                
-    text-align: center;             
-    padding: 10px;
-    margin-top: 20px;
-    position: sticky;
-    top: 0px;
-    background-color: black    
+    text-align: center;
+    background-color: black;
 }
 
 h2, h3{
@@ -260,8 +258,8 @@ iframe{
     color: red;
     padding: 0px;
     margin: 0px;
-
 }
+
 
 /*PIE DE PAGINA*/
 
@@ -282,6 +280,10 @@ footer{
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+}
+
+.icon:hover{
+    transform: scale(1.2);
 }
 
 .tituloFooter{    
@@ -323,8 +325,6 @@ footer{
         text-align: center;             
         padding: 10px;
         margin-top: 20px;
-        position: sticky;
-        top: 0px;
         background-color: black 
     }
 
@@ -451,7 +451,7 @@ footer{
             display: grid;
             justify-content: space-between;
             align-items: center;
-            grid-template-columns: 50% 50%;
+            grid-template-columns: 49% 49%;
             grid-template-rows: 25% 25%;
             grid-template-areas: 
             "img1 img2"
@@ -631,7 +631,7 @@ footer{
         justify-items: center;
         text-align: center;
         grid-template-columns: 30% 30% 30%;
-        grid-template-rows: 30% 30% 30%;
+        grid-template-rows: auto auto auto;
         grid-template-areas: 
         "imagen1 imagen2 imagen3"
         "imagen4 imagen5 imagen6"
@@ -650,7 +650,7 @@ footer{
         padding: 5px;
         margin-top: 10px;
         margin-bottom: 0px;
-        
+        margin-bottom: 0px;
     }
     
     .icon{
@@ -672,13 +672,8 @@ footer{
     
     .navFooter{
         text-align: center;
+        padding-bottom: 10px;
     }
-    
-
-
-
-
-
 
 }
 
@@ -699,7 +694,7 @@ footer{
     }
 
     /*FOOTER*/
-    
+
     .redes{
         grid-area: redes;
     }
