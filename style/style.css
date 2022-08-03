@@ -451,7 +451,7 @@ footer{
             display: grid;
             justify-content: space-between;
             align-items: center;
-            grid-template-columns: 50% 50%;
+            grid-template-columns: 48% 48%;
             grid-template-rows: 25% 25%;
             grid-template-areas: 
             "img1 img2"
