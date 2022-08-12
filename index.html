@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./imagenes/faviconMwz.png" type="image/x-icon">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./style/style.css">
     <title>Mundo Warzone</title>
 
@@ -14,29 +15,52 @@
 
 
 <body>
-    <header>
-        <nav>
-            <ul class="flex-header">
-                <!--enlace relativos-->
-                <li>
-                    <a class="aHeader" href="./secciones/contacto.html">CONTACTO</a>
-                </li>
-                <li>
-                    <a class="aHeader acc" href="./secciones/accesoriosinfaltables.html">ACCESORIOS INFALTABLES</a>
-                </li>
-                <li>
-                    <a class="aHeader" href="./secciones/operadores.html">OPERADORES</a>
-                </li>
-                <li>
-                    <a class="aHeader" href="./secciones/tutoriales.html">TUTORIALES</a>
-                </li>
-                <li>
-                    <a class="aHeader" href="./secciones/sobremwz.html">SOBRE MWZ</a>
-                </li>
-                
-            </ul>
-        </nav>
-    </header>
+
+ <header>
+    
+    <nav class="navbar navbar-expand-lg navbar-light header">
+
+        <div class="container-fluid d-flex justify-content-center">
+
+            <a class="navbar-brand" href="./index.html"><img class="w-100" src="./imagenes/icons8-call-of-duty-warzone-100.png" alt="Logo Mundo Warzone"></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav d-flex align-items-center">
+
+                    <li class="nav-item nav">
+                        <a class="nav-link active text-white" aria-current="page" href="./secciones/accesoriosinfaltables.html">ACCESORIOS INFALTABLES</a>
+                    </li>
+
+                    <li class="nav-item nav">
+                        <a class="nav-link active text-white" href="./secciones/sobremwz.html">SOBRE MWZ</a>
+                    </li>
+
+                    <li class="nav-item nav">
+                        <a class="nav-link active text-white" href="./secciones/tutoriales.html">TUTORIALES</a>
+                    </li>
+
+                    <li class="nav-item nav">
+                        <a class="nav-link active text-white" href="./secciones/operadores.html">OPERADORES</a>
+                    </li>
+
+                    <li class="nav-item nav">
+                        <a class="nav-link active text-white" href="./secciones/contacto.html">CONTACTO</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+ </header>
 
     <!--TITULO-->
     
@@ -115,8 +139,8 @@
 
             <nav class="navFooter">
                 <ul>
-                    <li>
-                        <a href="./secciones/contacto.html">CONTACTO</a>
+                    <li class="nav-item nav">
+                        <a class="nav-link active  text-white" href="./secciones/contacto.html">CONTACTO</a>
                     </li>
                 </ul>
             </nav>
@@ -127,7 +151,9 @@
 
     <script>
         AOS.init();
-      </script>
+    </script>
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     
 </body>
 </html>

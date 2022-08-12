@@ -25,18 +25,24 @@ header{
     justify-content:center;
     background-color: rgb(96, 108, 56);
     margin-bottom: 1em;
+    color:white;
 }
 
+.navM{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 nav ul li{
     list-style-type: none;
     margin: 3px;
+    color: white;
 }
 
 li:hover{
     transform: scale(1.2) ;
 }
-
 
 h1{
     font-family: 'Raleway', sans-serif;
